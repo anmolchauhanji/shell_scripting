@@ -1,0 +1,14 @@
+#!/bin/bash
+
+<<disclamer
+this is disclamer
+disclamer
+
+read -p "which type of boy you: " type
+
+if [[ $type == "good" ]] ;
+then
+echo "you are good boy "
+else
+echo "you are bad boy "
+fi
