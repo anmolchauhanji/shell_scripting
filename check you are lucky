@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "check no. : " no
+
+if [[$no == 5 ]] ;
+then
+echo "you are lucky"
+else
+echo "YOU ARE NOT LUCKY"
+fi
